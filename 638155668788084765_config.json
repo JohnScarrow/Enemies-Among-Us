@@ -1,5 +1,5 @@
 {
-    "UnmuteDeadDuringTasks": true,
+    "UnmuteDeadDuringTasks": false,
     "adminIDs": [
         "184429413193089024"
     ],
