@@ -1,0 +1,62 @@
+{
+    "UnmuteDeadDuringTasks": true,
+    "adminIDs": [
+        "184429413193089024"
+    ],
+    "applyNicknames": true,
+    "commandPrefix": ".au",
+    "defaultTrackedChannel": "764785904593141770",
+    "delays": {
+        "delays": {
+            "DISCUSSION": {
+                "DISCUSSION": 0,
+                "LOBBY": 5,
+                "TASKS": 5
+            },
+            "LOBBY": {
+                "DISCUSSION": 1,
+                "LOBBY": 0,
+                "TASKS": 5
+            },
+            "TASKS": {
+                "DISCUSSION": 0,
+                "LOBBY": 1,
+                "TASKS": 0
+            }
+        }
+    },
+    "guildID": "638155668788084765",
+    "permissionRoleIDs": [
+        "638162665801252876"
+    ],
+    "voiceRules": {
+        "DeafRules": {
+            "DISCUSSION": {
+                "alive": false,
+                "dead": false
+            },
+            "LOBBY": {
+                "alive": false,
+                "dead": false
+            },
+            "TASKS": {
+                "alive": true,
+                "dead": false
+            }
+        },
+        "MuteRules": {
+            "DISCUSSION": {
+                "alive": false,
+                "dead": true
+            },
+            "LOBBY": {
+                "alive": false,
+                "dead": false
+            },
+            "TASKS": {
+                "alive": true,
+                "dead": false
+            }
+        }
+    }
+}
